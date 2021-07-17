@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button, h1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin-top: 18px;
+    height: 30px;
+    transition: 300ms ease-in-out;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: crimson;
+}
+
+form input {
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 7px;
+    border: 1px solid darkcyan;
+}
+form input:focus {
+    outline: none;
+}
+
+#div {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(162, 0, 255);
+    position: relative;
+}

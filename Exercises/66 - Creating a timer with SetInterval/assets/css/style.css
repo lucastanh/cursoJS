@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#timer {
+    font-size: 50px;
+}
+
+button {
+    /* text-align: center; */
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0 3px #999;
+    width: 73px;
+}
+
+button:hover {
+    background-color: rgba(0, 139, 139, 0.822);
+}
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 0 #999;
+}

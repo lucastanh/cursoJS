@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Registration Form</h1>
+
+        <ul>
+            <li>No fields can be empty</li>
+            <li>User can only contain letter and/or numbers</li>
+            <li>User must contain between 3 and 12 characters</li>
+            <li>Password needs contain between 3 and 12</li>
+        </ul>
+
+        <form method="GET" class="form">
+            <button type="submit">Submit</button>
+            <label for="input1">Name:</label>
+            <input type="text" id="Name" class="Name">
+
+            <label for="input2">Last:</label>
+            <input type="text" id="Last" class="Last">
+            
+            <label for="input3">CPF: </label>
+            <input type="text" id="Cpf" class="Cpf">
+            
+            <label for="input4">User: </label>
+            <input type="text" id="User" class="User">
+            
+            <label for="input4">Password:</label>
+            <input type="text" id="Password" class="Password">
+            
+            <label for="input4">Confirm password:</label>
+            <input type="text" id="Confirm" class="Confirm password">
+
+        </form>
+    </div>
+
+    <script src="assets/js/validateCPF.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

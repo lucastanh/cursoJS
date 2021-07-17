@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.main-content {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button, h1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin-top: 18px;
+    height: 30px;
+    transition: 300ms ease-in-out;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: crimson;
+}
+
+form input {
+    font-size: 24px;
+    height: 30px;
+    padding: 0 20px;
+}
+form input:focus {
+    outline: 1px solid darkcyan;
+}
