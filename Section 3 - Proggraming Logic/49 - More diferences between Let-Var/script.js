@@ -1,13 +1,15 @@
-// let tem escopo de bloco {... bloco}
-// var só tem escopo de função
+/* 
+https://www.w3schools.com/js/js_scope.asp
+Variables declared within a JavaScript function, become LOCAL to the function.
+JavaScript has function scope: Each function creates a new scope.
+ */
 
-// 
 
 function falaOi() {
   var sobreNome = 'Castanheiro';
 
   if (true) {
-    var let = 'Lucas';
+    let nome = 'Lucas';
     var sobrenome = 'Alberto'
   }
 
