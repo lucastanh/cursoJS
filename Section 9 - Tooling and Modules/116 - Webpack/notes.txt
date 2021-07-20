@@ -1,0 +1,11 @@
+Documentation:
+    https://webpack.js.org/concepts/
+
+Observations:
+    Webpack is a bundle(packer) of JavaScript files
+    Dependency Graph - Árvore de dependencias
+
+
+Commands:
+    npm init -y
+    npm i --save-dev @babel/preset-env @babel/cli @babel/core babel-loader webpack webpack-cli regenerator-runtime core-js@2
